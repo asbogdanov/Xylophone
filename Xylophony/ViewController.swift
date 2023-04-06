@@ -182,6 +182,12 @@ class ViewController: UIViewController {
 
     @objc func buttonTapped(_ sender: UIButton) {
         playAudio(soundName: sender.currentTitle!)
+
+        sender.alpha = 0.5
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1.0
+        }
     }
 }
 
