@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         buttonC.setTitle("C", for: .normal)
         buttonC.backgroundColor = .systemRed
         buttonC.titleLabel?.font = UIFont.systemFont(ofSize: 40)
-        buttonC.addTarget(self, action: #selector(buttonTappedC), for: .touchUpInside)
+        buttonC.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
     func styleButtonD() {
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         buttonD.setTitle("D", for: .normal)
         buttonD.backgroundColor = .systemOrange
         buttonD.titleLabel?.font = UIFont.systemFont(ofSize: 40)
-        buttonD.addTarget(self, action: #selector(buttonTappedD), for: .touchUpInside)
+        buttonD.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
     func styleButtonE() {
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
         buttonE.setTitle("E", for: .normal)
         buttonE.backgroundColor = .systemYellow
         buttonE.titleLabel?.font = UIFont.systemFont(ofSize: 40)
-        buttonE.addTarget(self, action: #selector(buttonTappedE), for: .touchUpInside)
+        buttonE.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
     func styleButtonF() {
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         buttonF.setTitle("F", for: .normal)
         buttonF.backgroundColor = .systemGreen
         buttonF.titleLabel?.font = UIFont.systemFont(ofSize: 40)
-        buttonF.addTarget(self, action: #selector(buttonTappedF), for: .touchUpInside)
+        buttonF.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
     func styleButtonG() {
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         buttonG.setTitle("G", for: .normal)
         buttonG.backgroundColor = .systemIndigo
         buttonG.titleLabel?.font = UIFont.systemFont(ofSize: 40)
-        buttonG.addTarget(self, action: #selector(buttonTappedG), for: .touchUpInside)
+        buttonG.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
     func styleButtonA() {
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
         buttonA.setTitle("A", for: .normal)
         buttonA.backgroundColor = .systemBlue
         buttonA.titleLabel?.font = UIFont.systemFont(ofSize: 40)
-        buttonA.addTarget(self, action: #selector(buttonTappedA), for: .touchUpInside)
+        buttonA.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
     func styleButtonB() {
@@ -93,7 +93,7 @@ class ViewController: UIViewController {
         buttonB.setTitle("B", for: .normal)
         buttonB.backgroundColor = .systemPurple
         buttonB.titleLabel?.font = UIFont.systemFont(ofSize: 40)
-        buttonB.addTarget(self, action: #selector(buttonTappedB), for: .touchUpInside)
+        buttonB.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
     func makeConstraintsButtonC() {
@@ -174,74 +174,14 @@ class ViewController: UIViewController {
         ])
     }
 
-    func playAudioC() {
-        let url = Bundle.main.url(forResource: "C", withExtension: "wav")
+    func playAudio(soundName: String) {
+        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
         player = try! AVAudioPlayer(contentsOf: url!)
         player?.play()
     }
 
-    func playAudioD() {
-        let url = Bundle.main.url(forResource: "D", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player?.play()
-    }
-
-    func playAudioE() {
-        let url = Bundle.main.url(forResource: "E", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player?.play()
-    }
-
-    func playAudioF() {
-        let url = Bundle.main.url(forResource: "F", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player?.play()
-    }
-
-    func playAudioG() {
-        let url = Bundle.main.url(forResource: "G", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player?.play()
-    }
-
-    func playAudioA() {
-        let url = Bundle.main.url(forResource: "A", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player?.play()
-    }
-
-    func playAudioB() {
-        let url = Bundle.main.url(forResource: "B", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player?.play()
-    }
-
-    @objc func buttonTappedC() {
-        playAudioC()
-    }
-
-    @objc func buttonTappedD() {
-        playAudioD()
-    }
-
-    @objc func buttonTappedE() {
-        playAudioE()
-    }
-
-    @objc func buttonTappedF() {
-        playAudioF()
-    }
-
-    @objc func buttonTappedG() {
-        playAudioG()
-    }
-
-    @objc func buttonTappedA() {
-        playAudioA()
-    }
-
-    @objc func buttonTappedB() {
-        playAudioB()
+    @objc func buttonTapped(_ sender: UIButton) {
+        playAudio(soundName: sender.currentTitle!)
     }
 }
 
