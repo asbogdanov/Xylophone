@@ -10,9 +10,15 @@
 		0A7C9D2B29DAF57800CD1085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C9D2A29DAF57800CD1085 /* AppDelegate.swift */; };
 		0A7C9D2D29DAF57800CD1085 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C9D2C29DAF57800CD1085 /* SceneDelegate.swift */; };
 		0A7C9D2F29DAF57800CD1085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C9D2E29DAF57800CD1085 /* ViewController.swift */; };
-		0A7C9D3229DAF57800CD1085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D3029DAF57800CD1085 /* Main.storyboard */; };
 		0A7C9D3429DAF57900CD1085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D3329DAF57900CD1085 /* Assets.xcassets */; };
 		0A7C9D3729DAF57900CD1085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D3529DAF57900CD1085 /* LaunchScreen.storyboard */; };
+		0A7C9D4A29DEB69300CD1085 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D4329DEB69300CD1085 /* B.wav */; };
+		0A7C9D4B29DEB69300CD1085 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D4429DEB69300CD1085 /* F.wav */; };
+		0A7C9D4C29DEB69300CD1085 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D4529DEB69300CD1085 /* D.wav */; };
+		0A7C9D4D29DEB69300CD1085 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D4629DEB69300CD1085 /* E.wav */; };
+		0A7C9D4E29DEB69300CD1085 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D4729DEB69300CD1085 /* G.wav */; };
+		0A7C9D4F29DEB69300CD1085 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D4829DEB69300CD1085 /* A.wav */; };
+		0A7C9D5029DEB69300CD1085 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C9D4929DEB69300CD1085 /* C.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,16 @@
 		0A7C9D2A29DAF57800CD1085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A7C9D2C29DAF57800CD1085 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A7C9D2E29DAF57800CD1085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A7C9D3129DAF57800CD1085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A7C9D3329DAF57900CD1085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A7C9D3629DAF57900CD1085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A7C9D3829DAF57900CD1085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7C9D4329DEB69300CD1085 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = "../../../../../../Downloads/Xylophone-iOS13-Completed-master/Xylophone/Sounds/B.wav"; sourceTree = "<group>"; };
+		0A7C9D4429DEB69300CD1085 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F.wav; path = "../../../../../../Downloads/Xylophone-iOS13-Completed-master/Xylophone/Sounds/F.wav"; sourceTree = "<group>"; };
+		0A7C9D4529DEB69300CD1085 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = "../../../../../../Downloads/Xylophone-iOS13-Completed-master/Xylophone/Sounds/D.wav"; sourceTree = "<group>"; };
+		0A7C9D4629DEB69300CD1085 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E.wav; path = "../../../../../../Downloads/Xylophone-iOS13-Completed-master/Xylophone/Sounds/E.wav"; sourceTree = "<group>"; };
+		0A7C9D4729DEB69300CD1085 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G.wav; path = "../../../../../../Downloads/Xylophone-iOS13-Completed-master/Xylophone/Sounds/G.wav"; sourceTree = "<group>"; };
+		0A7C9D4829DEB69300CD1085 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A.wav; path = "../../../../../../Downloads/Xylophone-iOS13-Completed-master/Xylophone/Sounds/A.wav"; sourceTree = "<group>"; };
+		0A7C9D4929DEB69300CD1085 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C.wav; path = "../../../../../../Downloads/Xylophone-iOS13-Completed-master/Xylophone/Sounds/C.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +71,26 @@
 				0A7C9D2A29DAF57800CD1085 /* AppDelegate.swift */,
 				0A7C9D2C29DAF57800CD1085 /* SceneDelegate.swift */,
 				0A7C9D2E29DAF57800CD1085 /* ViewController.swift */,
-				0A7C9D3029DAF57800CD1085 /* Main.storyboard */,
 				0A7C9D3329DAF57900CD1085 /* Assets.xcassets */,
 				0A7C9D3529DAF57900CD1085 /* LaunchScreen.storyboard */,
 				0A7C9D3829DAF57900CD1085 /* Info.plist */,
+				0A7C9D3E29DB05E000CD1085 /* Sounds */,
 			);
 			path = Xylophony;
+			sourceTree = "<group>";
+		};
+		0A7C9D3E29DB05E000CD1085 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0A7C9D4829DEB69300CD1085 /* A.wav */,
+				0A7C9D4329DEB69300CD1085 /* B.wav */,
+				0A7C9D4929DEB69300CD1085 /* C.wav */,
+				0A7C9D4529DEB69300CD1085 /* D.wav */,
+				0A7C9D4629DEB69300CD1085 /* E.wav */,
+				0A7C9D4429DEB69300CD1085 /* F.wav */,
+				0A7C9D4729DEB69300CD1085 /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7C9D4D29DEB69300CD1085 /* E.wav in Resources */,
+				0A7C9D4A29DEB69300CD1085 /* B.wav in Resources */,
+				0A7C9D4F29DEB69300CD1085 /* A.wav in Resources */,
+				0A7C9D5029DEB69300CD1085 /* C.wav in Resources */,
 				0A7C9D3729DAF57900CD1085 /* LaunchScreen.storyboard in Resources */,
+				0A7C9D4C29DEB69300CD1085 /* D.wav in Resources */,
+				0A7C9D4E29DEB69300CD1085 /* G.wav in Resources */,
 				0A7C9D3429DAF57900CD1085 /* Assets.xcassets in Resources */,
-				0A7C9D3229DAF57800CD1085 /* Main.storyboard in Resources */,
+				0A7C9D4B29DEB69300CD1085 /* F.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A7C9D3029DAF57800CD1085 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A7C9D3129DAF57800CD1085 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A7C9D3529DAF57900CD1085 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +316,7 @@
 				INFOPLIST_FILE = Xylophony/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +344,7 @@
 				INFOPLIST_FILE = Xylophony/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
